@@ -10,7 +10,7 @@ import './App.css'; // Importa el archivo CSS
 
 function App() {
   return (
-    <div>
+    <div className="container-principal">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

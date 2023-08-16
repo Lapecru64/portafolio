@@ -3,7 +3,7 @@ import './home.css';
 
 const Home = () => {
   const [displayedText, setDisplayedText] = useState('');
-  const fullText = "I'm Laura Pérez Cruz and I'm a Full Stack developer";
+  const fullText = "My name is Laura Pérez Cruz and I'm a Full Stack developer";
   const textLength = fullText.length;
 
   useEffect(() => {

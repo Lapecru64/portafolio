@@ -1,0 +1,44 @@
+.img {
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin: 0 auto;
+    position: absolute; 
+}
+
+.color-font {
+    color: brown;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.portfolio-images {
+    position: relative; 
+    width: 500px; 
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-images .img-item {
+    position: absolute; 
+    transform-origin: center center;
+    transform: rotate(0deg); 
+}
+
+.portfolio-container {
+    background-image: url('../public/imgs/webapps.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
