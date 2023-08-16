@@ -1,0 +1,40 @@
+.myskills-list {
+  color: rgb(185, 22, 22);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0; 
+  transition: opacity 1s ease-in-out; 
+}
+
+.myskills-list.show {
+  opacity: 1; 
+}
+
+.myskills-container {
+    background-image: url('../public/imgs/herramientas-digitales1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color:rgb(185, 22, 22);
+    font-size: 3.5rem;
+    opacity: 0.9;
+  }
+  
+  .myskills-item {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+    color: rgb(185, 22, 22); 
+}
+
+  

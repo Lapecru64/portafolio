@@ -1,18 +1,21 @@
+// main.jsx
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App.jsx';
+import { createRoot } from 'react-dom/client';
+import App from './App';
 import './index.css';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from './store/index.js';
+import store from './store/index';
 
-ReactDOM.render(
+const rootElement = document.getElementById('root');
+
+// Utiliza createRoot en lugar de ReactDOM.render
+createRoot(rootElement).render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Provider store={store}>
         <App />
       </Provider>
-    </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+    </BrowserRouter>
+  </React.StrictMode>
 );
