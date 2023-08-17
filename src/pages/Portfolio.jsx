@@ -4,32 +4,32 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
-    src: "public/imgs/galletasfortuna.jpg",
+    src: "/public/imgs/galletasfortuna.jpg",
     alt: "Fortune Cookie App",
     link: "https://stupendous-valkyrie-4ca841.netlify.app/"
   },
   {
-    src: "public/imgs/weather.jpg",
+    src: "/public/imgs/weather.jpg",
     alt: "Weather App",
     link: "https://64a0d9b26243bb088540b145--deft-croquembouche-7f6f1f.netlify.app/"
   },
   {
-    src: "public/imgs/RickandMorty.jpg",
+    src: "/public/imgs/RickandMorty.jpg",
     alt: "Rick and Morty App",
     link: "https://legendary-jelly-89eb1a.netlify.app/"
   },
   {
-    src: "public/imgs/users.jpg",
+    src: "/public/imgs/users.jpg",
     alt: "Users App",
     link: "https://warm-donut-52d672.netlify.app/"
   },
   {
-    src: "public/imgs/pokemon.jpg",
+    src: "/public/imgs/pokemon.jpg",
     alt: "Pókedex App",
     link: "https://dazzling-melomakarona-63db3c.netlify.app/"
   },
   {
-    src: "public/imgs/ecommerce.jpg",
+    src: "/public/imgs/ecommerce.jpg",
     alt: "E-commerce App",
     link: "https://bejewelled-babka-3dfe70.netlify.app/"
   }
