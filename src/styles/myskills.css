@@ -15,7 +15,7 @@
 }
 
 .myskills-container {
-    background-image: url('../public/imgs/herramientas-digitales1.jpg');
+    background-image: url('/public/imgs/herramientas-digitales1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
