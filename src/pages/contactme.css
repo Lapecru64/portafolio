@@ -1,9 +1,6 @@
-/* Estilos para la página ContactMe */
 
-
-/* Estilo para el contenedor principal */
 .contactme-container {
-    background-image: url('/imgs/background.jpg');
+    background-image: url('../imgs/background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;

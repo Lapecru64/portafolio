@@ -1,6 +1,6 @@
 
 .aboutme-container {
-    background-image: url('/imgs/compu.jpg');
+    background-image: url('../imgs/compu.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;

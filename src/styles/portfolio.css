@@ -30,7 +30,7 @@
 }
 
 .portfolio-container {
-    background-image: url('../public/imgs/webapps.jpg');
+    background-image: url('../imgs/webapps.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
