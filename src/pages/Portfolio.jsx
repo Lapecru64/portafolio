@@ -41,7 +41,7 @@ const Portfolio = () => {
       <h1 className="color-font">Portfolio</h1>
       <div className="portfolio-images">
         {projects.map((project, index) => (
-          <Link to={project.link} key={index}>
+          <Link to={project.link} key={index} target="_blank">
             <div className="img-item" style={{ transform: `rotate(${(360 / projects.length) * index}deg)` }}>
               <img className="img" src={project.src} alt={project.alt} />
             </div>
