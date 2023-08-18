@@ -8,22 +8,30 @@
     }
 
     @media (max-width: 768px) {
-  .container-principal {
-    background-color: blue; /* Cambia el color de fondo para dispositivos pequeños */
-  }
-
-  /* Estilos para dispositivos pequeños */
-  .img-home h1 {
-    font-size: 2rem; /* Reduz el tamaño del texto en la página de inicio */
-  }
-
-  .header-nav ul {
-    flex-direction: column; /* Cambia la dirección de los elementos en la barra de navegación */
-    text-align: center; /* Centra el texto en la barra de navegación */
-  }
+      .container-principal {
+        background-color: blue; /* Cambia el color de fondo para dispositivos pequeños */
+      }
+    
+      /* Estilos para dispositivos pequeños */
+      .img-home {
+        background-size: contain; /* Cambia a "contain" para ajustar la imagen en vez de cubrirla */
+        background-position: center top; /* Ajusta la posición vertical de la imagen de fondo */
+      }
+    
+      .img-home h1 {
+        font-size: 2rem; /* Reduz el tamaño del texto en la página de inicio */
+      }
+    
+      .header-nav ul {
+        flex-direction: column; /* Cambia la dirección de los elementos en la barra de navegación */
+        text-align: center; /* Centra el texto en la barra de navegación */
+      }
+    
+      /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
+    }
 
   /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
-}
+
 
 @media (min-width: 769px) {
   .container-principal {
