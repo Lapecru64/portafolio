@@ -26,7 +26,7 @@ const AboutMe = () => {
         }
         return prevText + paragraphs[paragraphIndex].charAt(prevText.length);
       });
-    }, 100);
+    }, 150);
 
     return () => clearInterval(interval);
   }, [paragraphIndex]);
