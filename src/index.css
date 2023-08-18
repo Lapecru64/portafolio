@@ -13,13 +13,18 @@
       }
     
       /* Estilos para dispositivos pequeños */
-      .img-home {
-        background-size: contain; /* Cambia a "contain" para ajustar la imagen en vez de cubrirla */
-        background-position: center top; /* Ajusta la posición vertical de la imagen de fondo */
+      .aboutme-container,
+      .contactme-container,
+      .myskills-container,
+      .portfolio-container {
+        background-size: cover; /* Restaura el tamaño de la imagen de fondo */
       }
     
-      .img-home h1 {
-        font-size: 2rem; /* Reduz el tamaño del texto en la página de inicio */
+      .aboutme-text p,
+      .contactme-form,
+      .myskills-list,
+      .portfolio-images {
+        padding: 10px; /* Ajusta el espacio alrededor del contenido para dispositivos pequeños */
       }
     
       .header-nav ul {
@@ -29,9 +34,7 @@
     
       /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
     }
-
-  /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
-
+    
 
 @media (min-width: 769px) {
   .container-principal {
