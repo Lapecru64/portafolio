@@ -35,23 +35,21 @@
       /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
     }
     
-
-@media (min-width: 769px) {
-  .container-principal {
-    background-color: purple; /* Cambia el color de fondo para dispositivos medianos y grandes */
-  }
-
-  /* Estilos para dispositivos medianos y grandes */
-  .img-home h1 {
-    font-size: 3.5rem; /* Restaura el tamaño del texto en la página de inicio */
-  }
-
-  .header-nav ul {
-    flex-direction: row; /* Vuelve a la dirección original de los elementos en la barra de navegación */
-    text-align: left; /* Restaura la alineación del texto en la barra de navegación */
-  }
-
-  /* Ajusta otros estilos según sea necesario para dispositivos medianos y grandes */
-}
-
-  
+    @media (min-width: 769px) {
+      .container-principal {
+        background-color: purple; /* Cambia el color de fondo para dispositivos medianos y grandes */
+      }
+    
+      /* Estilos para dispositivos medianos y grandes */
+      .img-home h1 {
+        font-size: 3.5rem; /* Restaura el tamaño del texto en la página de inicio */
+      }
+    
+      .header-nav ul {
+        flex-direction: row; /* Vuelve a la dirección original de los elementos en la barra de navegación */
+        text-align: left; /* Restaura la alineación del texto en la barra de navegación */
+      }
+    
+      /* Ajusta otros estilos según sea necesario para dispositivos medianos y grandes */
+    }
+    
