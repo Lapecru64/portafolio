@@ -17,31 +17,31 @@ const MySkills = () => {
       <h1>My Skills</h1>
       <ul className={`myskills-list ${showSkills ? 'show' : ''}`}>
         <li className="myskills-item">
-        <box-icon type='logo' name='react'></box-icon>
+          <box-icon size="100px" type='logo' name='react'></box-icon>
           React
         </li>
         <li className="myskills-item">
-        <box-icon type='logo' name='html5'></box-icon>
+          <box-icon size="100px" type='logo' name='html5'></box-icon>
           HTML
         </li>
         <li className="myskills-item">
-        <box-icon type='logo' name='css3'></box-icon>
+          <box-icon size="100px" type='logo' name='css3'></box-icon>
           CSS
         </li>
         <li className="myskills-item">
-        <box-icon type='logo' name='nodejs'></box-icon>
+          <box-icon size="100px" type='logo' name='nodejs'></box-icon>
           Node JS
         </li>
         <li className="myskills-item">
-        <box-icon type='logo' name='typescript'></box-icon>
+          <box-icon size="100px" type='logo' name='typescript'></box-icon>
           Type Script
         </li>
         <li className="myskills-item">
-        <box-icon name='task'></box-icon>
+          <box-icon size="100px" name='task'></box-icon>
           Multitask
         </li>
         <li className="myskills-item">
-        <box-icon type='logo' name='microsoft-teams'></box-icon>
+          <box-icon size="100px" type='logo' name='microsoft-teams'></box-icon>
           Teamwork
         </li>
       </ul>

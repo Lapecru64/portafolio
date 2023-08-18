@@ -8,10 +8,9 @@ const Home = () => {
 
   useEffect(() => {
     let index = 0;
-
     const interval = setInterval(() => {
-      if (index < textLength) {
-        setDisplayedText(prevText => prevText + fullText.charAt(index));
+      if (index <= textLength) {
+        setDisplayedText(fullText.substring(0, index));
         index++;
       } else {
         clearInterval(interval);
