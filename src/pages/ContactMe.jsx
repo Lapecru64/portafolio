@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import Modal from '../shared/Modal';
@@ -63,6 +62,21 @@ const ContactMe = () => {
             <li>
               <a href="https://www.linkedin.com/in/laura-perez-45560523a/" target="_blank" className="footer__link">
               <box-icon type='logo' name='linkedin-square' size="100px"></box-icon>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:perlaura64@outlook.com" className="footer__link">
+                <box-icon name='mail-send' size="100px"></box-icon>
+              </a>
+            </li>
+            <li>
+              <a href="/src/utilits/Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" download>
+                Download My CV
+              </a>
+            </li>
+            <li>
+              <a href="/src/utilits/CV%20ATS%20LPC.pdf" target="_blank" rel="noopener noreferrer" download>
+                Download ATS CV
               </a>
             </li>
           </ul>
