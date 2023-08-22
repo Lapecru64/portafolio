@@ -70,12 +70,12 @@ const ContactMe = () => {
               </a>
             </li>
             <li>
-              <a href="/src/utilits/Curriculum%20Vitae.pdf" target="_blank" rel="noopener noreferrer" download>
+              <a href="/src/utilits/CurriculumVitae.pdf" target="_blank" rel="noopener noreferrer" download>
                 Download My CV
               </a>
             </li>
             <li>
-              <a href="/src/utilits/CV%20ATS%20LPC.pdf" target="_blank" rel="noopener noreferrer" download>
+              <a href="/src/utilits/CVATSLPC.pdf" target="_blank" rel="noopener noreferrer" download>
                 Download ATS CV
               </a>
             </li>
