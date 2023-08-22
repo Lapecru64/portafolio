@@ -75,7 +75,7 @@ const ContactMe = () => {
               </a>
             </li>
             <li>
-              <a href="/src/utilits/CVATSLPC.pdf" target="_blank" rel="noopener noreferrer" download>
+              <a href="/src/utilitis/CVATSLPC.pdf" target="_blank" rel="noopener noreferrer" download>
                 Download ATS CV
               </a>
             </li>
