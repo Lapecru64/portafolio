@@ -80,7 +80,7 @@ const Portfolio = () => {
         <div className="modal-overlay">
           <div className="modal-content">
             <button className="modal-close-button" onClick={closeModal}>
-              X
+             CLOSE
             </button>
             <h2>App description</h2>
             <p>{selectedProject.description}</p>

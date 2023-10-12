@@ -6,7 +6,7 @@ import AboutMe from './pages/AboutMe';
 import MySkills from './pages/MySkills';
 import Portfolio from './pages/Portfolio';
 import ContactMe from './pages/ContactMe';
-import './App.css'; // Importa el archivo CSS
+
 
 function App() {
   return (

@@ -70,6 +70,71 @@
     z-index: 2;
   }
   
-  
+  /* Estilo para el modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+  background: white;
+  color:brown;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 80%; /* Ancho máximo del modal */
+  text-align: center;
+  position: relative;
+}
+
+/* Estilo para el botón de cerrar el modal */
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #333; /* Cambia el color del botón de cierre */
+}
+
+/* Estilo para el título del modal */
+.modal-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:brown;
+}
+
+/* Estilo para el párrafo del modal */
+.modal-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: brown;
+}
+
+/* Estilo para el enlace del modal */
+.modal-content a {
+  display: inline-block;
+  background-color: #007bff; /* Cambia el color de fondo del enlace */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Estilo para el enlace del modal al pasar el ratón */
+.modal-content a:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+}
   
   
