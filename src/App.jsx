@@ -6,9 +6,9 @@ import AboutMe from './pages/AboutMe';
 import MySkills from './pages/MySkills';
 import Portfolio from './pages/Portfolio';
 import ContactMe from './pages/ContactMe';
-import { useDispatch, useSelector } from 'react-redux'; // Importa useDispatch y useSelector
-import { toggleDarkMode } from './store/index'; // Importa la acción toggleDarkMode
-import DarkModeWrapper from '../src/components/DarkModeWrapper'; // Importa el componente DarkModeWrapper
+import { useDispatch, useSelector } from 'react-redux';
+import { toggleDarkMode } from './store/index';
+import DarkModeWrapper from '../src/components/DarkModeWrapper';
 import './App.css';
 
 function App() {
@@ -26,7 +26,6 @@ function App() {
         Toggle Dark Mode
       </button>
       <DarkModeWrapper>
-        {/* Envuelve tus rutas con DarkModeWrapper */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />

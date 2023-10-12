@@ -6,64 +6,27 @@
 /* Estilos generales de tu aplicación */
 .container-principal {
   /* Resto de estilos existentes */
-
-  /* Establece un ancho máximo y añade márgenes */
   max-width: 100%;
   margin: 0 auto;
-  padding: 10px; /* Añade espacio alrededor del contenido */
 }
 
-/* Estilos para el fondo oscuro */
-.container-principal.dark {
-  /* Establece un ancho máximo y añade márgenes */
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 10px; /* Añade espacio alrededor del contenido */
+/* Estilos para dispositivos pequeños, medianos y grandes */
+@media (max-width: 768px) {
+  .container-principal {
+    background-color: #e42727; /* Color de fondo para dispositivos pequeños */
+    color: #333; /* Color de texto para dispositivos pequeños */
+  }
+
+  /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
 }
 
-    @media (max-width: 768px) {
-      .container-principal {
-        background-color: blue; /* Cambia el color de fondo para dispositivos pequeños */
-      }
-    
-      /* Estilos para dispositivos pequeños */
-      .aboutme-container,
-      .contactme-container,
-      .myskills-container,
-      .portfolio-container {
-        background-size: cover; /* Restaura el tamaño de la imagen de fondo */
-      }
-    
-      .aboutme-text p,
-      .contactme-form,
-      .myskills-list,
-      .portfolio-images {
-        padding: 10px; /* Ajusta el espacio alrededor del contenido para dispositivos pequeños */
-      }
-    
-      .header-nav ul {
-        flex-direction: column; /* Cambia la dirección de los elementos en la barra de navegación */
-        text-align: center; /* Centra el texto en la barra de navegación */
-      }
-    
-      /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
-    }
-    
-    @media (min-width: 769px) {
-      .container-principal {
-        background-color: rgb(221, 74, 74); /* Cambia el color de fondo para dispositivos medianos y grandes */
-      }
-    
-      /* Estilos para dispositivos medianos y grandes */
-      .img-home h1 {
-        font-size: 3.5rem; /* Restaura el tamaño del texto en la página de inicio */
-      }
-    
-      .header-nav ul {
-        flex-direction: row; /* Vuelve a la dirección original de los elementos en la barra de navegación */
-        text-align: left; /* Restaura la alineación del texto en la barra de navegación */
-      }
-    
-      /* Ajusta otros estilos según sea necesario para dispositivos medianos y grandes */
-    }
+@media (min-width: 769px) {
+  .container-principal {
+    background-color: #e42727; /* Color de fondo para dispositivos medianos y grandes */
+    color: #333; /* Color de texto para dispositivos medianos y grandes */
+  }
+
+  /* Ajusta otros estilos según sea necesario para dispositivos medianos y grandes */
+}
+
     
