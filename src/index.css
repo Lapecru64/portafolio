@@ -5,40 +5,40 @@
 
 /* Estilos generales de tu aplicación */
 .container-principal {
-  /* Resto de estilos existentes */
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   max-width: 100%;
   margin: 0 auto;
 }
 
 /* Estilos para dispositivos pequeños, medianos y grandes */
 @media (max-width: 768px) {
+  /* Cambios específicos para dispositivos pequeños */
   .container-principal {
-    background-color: #dd3f3f; /* Color de fondo para dispositivos pequeños */
-    color: #333; /* Color de texto para dispositivos pequeños */
+    background-color: #dd3f3f;
+    color: #333;
   }
-
-  /* Ajusta otros estilos según sea necesario para dispositivos pequeños */
 
   /* Corrección específica para la página /skills en dispositivos pequeños */
   .myskills-list {
-    max-width: 100%; /* Asegura que los elementos no excedan el ancho de la pantalla */
-    flex-direction: column; /* Alinea los elementos en columna */
-    align-items: center; /* Centra los elementos horizontalmente */
+    flex-direction: column;
+    align-items: center;
   }
 
   .myskills-item {
-    width: auto; /* Permite que los elementos se ajusten al contenido */
-    margin: 10px 0; /* Espacio vertical entre elementos */
+    width: 100%; /* Ajusta el ancho para dispositivos pequeños */
+    margin: 10px 0;
   }
 }
 
 @media (min-width: 769px) {
+  /* Cambios específicos para dispositivos medianos y grandes */
   .container-principal {
-    background-color: #dd3f3f; /* Color de fondo para dispositivos medianos y grandes */
-    color: #333; /* Color de texto para dispositivos medianos y grandes */
+    background-color: #dd3f3f;
+    color: #333;
   }
 
-  /* Ajusta otros estilos según sea necesario para dispositivos medianos y grandes */
 }
 
 
