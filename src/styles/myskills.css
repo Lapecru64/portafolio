@@ -8,6 +8,11 @@
   justify-content: center;
   opacity: 0; 
   transition: opacity 1s ease-in-out; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px; /* Establece un ancho máximo para los elementos */
+  margin: 0 auto; /* Centra los elementos en el contenedor */
 }
 
 .myskills-list.show {
@@ -25,7 +30,7 @@
     align-items: center;
     padding: 20px;
     color:rgb(185, 22, 22);
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     opacity: 0.9;
   }
   
@@ -33,8 +38,9 @@
     margin: 10px;
     display: flex;
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: rgb(185, 22, 22); 
+    width: 45%; /* Establece un ancho para cada elemento de habilidad */
 }
 
   

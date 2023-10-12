@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/myskills.css';
 
 const MySkills = () => {
   const [showSkills, setShowSkills] = useState(false);
 
   useEffect(() => {
+    // Agrega un retraso para mostrar los iconos después de un tiempo
     const timer = setTimeout(() => {
       setShowSkills(true);
-    }, 550);
+    }, 1000); // Puedes ajustar el tiempo según tus necesidades
 
     return () => clearTimeout(timer);
   }, []);

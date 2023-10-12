@@ -3,9 +3,23 @@
     color: yellow;
 }
 
+/* Estilos generales de tu aplicación */
 .container-principal {
-    background-color: purple;
-    }
+  /* Resto de estilos existentes */
+
+  /* Establece un ancho máximo y añade márgenes */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px; /* Añade espacio alrededor del contenido */
+}
+
+/* Estilos para el fondo oscuro */
+.container-principal.dark {
+  /* Establece un ancho máximo y añade márgenes */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px; /* Añade espacio alrededor del contenido */
+}
 
     @media (max-width: 768px) {
       .container-principal {
@@ -37,7 +51,7 @@
     
     @media (min-width: 769px) {
       .container-principal {
-        background-color: purple; /* Cambia el color de fondo para dispositivos medianos y grandes */
+        background-color: rgb(221, 74, 74); /* Cambia el color de fondo para dispositivos medianos y grandes */
       }
     
       /* Estilos para dispositivos medianos y grandes */
