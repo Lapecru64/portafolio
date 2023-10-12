@@ -1,9 +1,9 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client'; // Importar createRoot desde el lugar correcto
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom'; // Importa BrowserRouter
+import { Provider } from 'react-redux'; // Importa Provider
 import store from './store/index';
 
 const rootElement = document.getElementById('root');

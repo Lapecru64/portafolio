@@ -1,0 +1,32 @@
+ /* Estilos para el botón de modo oscuro */
+.dark-mode-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el modo oscuro */
+  .dark {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Estilos generales de tu aplicación */
+  .container-principal {
+    /* Estilos para el fondo claro */
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Estilos para el fondo oscuro */
+  .container-principal.dark {
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
