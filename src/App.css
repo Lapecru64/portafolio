@@ -19,7 +19,7 @@
   .container-principal {
     /* Estilos para el fondo claro */
     background-color: #fff;
-    color: #333;
+    color: #dd3f3f;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
   

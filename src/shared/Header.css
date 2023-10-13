@@ -1,0 +1,32 @@
+
+.header-container {
+    background-color: #dd3f3f; /* Cambia el color de fondo del encabezado según tus preferencias */
+    color: #fff; /* Cambia el color del texto */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px 20px; /* Espaciado interior */
+  }
+  
+  .header-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header-links li {
+    margin-right: 20px; /* Espaciado entre los elementos de la lista */
+  }
+  
+  .header-links a {
+    text-decoration: none;
+    color: yellow; /* Cambia el color de los enlaces */
+    font-weight: bold; /* Opcional: añade negrita a los enlaces */
+    font-size: 16px; /* Opcional: ajusta el tamaño del texto de los enlaces */
+  }
+  
+  .header-links a:hover {
+    text-decoration: underline; /* Cambia el estilo de subrayado al pasar el ratón */
+  }
+  
