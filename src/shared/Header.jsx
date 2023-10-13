@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleDarkMode } from '../store/index'; // Ajusta la importación
-
+import { toggleDarkMode } from '../store/index';
 import './Header.css';
 
 const Header = () => {

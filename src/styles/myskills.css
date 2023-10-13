@@ -5,7 +5,7 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   opacity: 0; 
   transition: opacity 1s ease-in-out; 
   display: flex;
@@ -25,7 +25,7 @@
     background-position: center;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 20px;
