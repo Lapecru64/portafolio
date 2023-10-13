@@ -5,7 +5,6 @@
     display: flex;
     justify-content: space-between; /* Distribuye los elementos horizontalmente */
     align-items: center; /* Centra verticalmente los elementos */
-    padding: 10px 20px; /* Espaciado interior */
   }
   
   .header-links {

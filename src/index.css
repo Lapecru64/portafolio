@@ -19,17 +19,6 @@
     background-color: #dd3f3f;
     color: #333;
   }
-
-  /* Corrección específica para la página /skills en dispositivos pequeños */
-  .myskills-list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .myskills-item {
-    width: 100%; /* Ajusta el ancho para dispositivos pequeños */
-    margin: 10px 0;
-  }
 }
 
 @media (min-width: 769px) {
